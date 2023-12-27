@@ -1,6 +1,6 @@
 {
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cStandard": "c99",
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
@@ -11,6 +11,8 @@
         "getopt.h": "c",
         "getopt_core.h": "c",
         "stdio.h": "c",
-        "stdlib.h": "c"
-    }
+        "stdlib.h": "c",
+        "dirent.h": "c",
+        "types.h": "c"
+    },
 }
